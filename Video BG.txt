@@ -1,0 +1,34 @@
+HTML
+
+<video id="background-video" autoplay loop muted poster="Images\Background.png">
+        <source src="Images\Vid.mp4" type="video/mp4">
+</video>
+
+CSS
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+GRADIENT
+
+FOR_BG
+
+linear-gradient(#FED807, #FE1902 94.35%);
+
+FOR_TEXT
+
+background: -webkit-linear-gradient(#FED807, #FE1902);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+

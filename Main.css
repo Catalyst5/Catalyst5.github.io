@@ -1,0 +1,89 @@
+//_*_*_*_*_*_*_*_*_*(Navbar)
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+
+.Navbar{
+    width: auto;
+    float: left;
+    margin: 8px;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(#FED807, #FE1902 94.35%);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+}
+
+span{
+    color: #ffd900;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 3px 30px;
+}
+
+//_*_*_*_*_*_*_*_*_*(Links)
+
+a {
+    text-align: center;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(#FE1902, #FED807);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+//_*_*_*_*_*_*_*_*_*(Background)
+
+body {
+    background-color: black;
+}
+
+//_*_*_*_*_*_*_*_*_*(Font and Color)
+h2 {
+    color: orange;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+//_*_*_*_*_*_*_*_*_*(Rounded Corners For Images)
+img {
+    border-radius: 5%;
+}
