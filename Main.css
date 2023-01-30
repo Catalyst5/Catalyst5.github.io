@@ -59,13 +59,13 @@ a {
     text-decoration: none;
     font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2vw;
+    transition: 1s;
 }
 
 a:hover {
     background: -webkit-linear-gradient(#FE1902, #FED807);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s;
 }
 
 body {
