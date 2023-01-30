@@ -83,6 +83,13 @@ h3{
     color: orange;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h2 {
+    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, sans-serif;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
 
 p {
     color: white;
@@ -93,14 +100,8 @@ p {
 img {
     border-radius: 5%;
 }
-//_*_*_*_*_*_*_*_*_*(Animations for images)
-.zoom{
-    transition: transform .2s;
-}
-.zoom:hover{
-    transform: scale(1.5);
-}
-/_*_*_*_*_*_*_*_*_*(Stylish buttons)
+
+//_*_*_*_*_*_*_*_*_*(Stylish buttons and images)
 .btn-holder {
 	width: 300px;
 	margin: 50px auto;
@@ -120,11 +121,16 @@ img {
 }
 .btn-1:hover{
 	background: #dfee0b;
-}/_*_*_*_*_*_*_*_*_*(No underline in a)
-
+}
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+}
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.5);
 }
