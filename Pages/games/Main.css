@@ -1,0 +1,136 @@
+//_*_*_*_*_*_*_*_*_*(Navbar)
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+
+.Navbar{
+    width: auto;
+    float: left;
+    margin: 8px;
+}
+
+
+
+header {
+    width: 40%;
+    height: 70px;
+    background-image: linear-gradient(#FED807, #FE1902 94.35%);
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+h2 {
+    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, sans-serif;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+}
+h1 {
+    text-align: center;
+    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, sans-serif;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+}
+
+span{
+    color: #ffd900;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin: 8px;
+}
+
+li{
+    display: inline-block;
+    padding: 3px 30px;
+}
+
+//_*_*_*_*_*_*_*_*_*(Links)
+
+a {
+    text-align: center;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover {
+    background: -webkit-linear-gradient(#FE1902, #FED807);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s;
+}
+
+body {
+    background-color: black;
+    color: black;
+}
+
+//_*_*_*_*_*_*_*_*_*(Font and Color)
+h2 {
+    color: orange;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: white;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+//_*_*_*_*_*_*_*_*_*(Rounded Corners For Images)
+img {
+    border-radius: 5%;
+}
+//_*_*_*_*_*_*_*_*_*(Animations for images)
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover{
+    transform: scale(1.5);
+}
+//_*_*_*_*_*_*_*_*_*(Stylish buttons)
+.btn-holder {
+	width: 300px;
+	margin: 50px auto;
+}
+.btn-1 {
+	display: block;
+	border: none;
+	background: #F44336;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	outline: none;
+	transition: background 1s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn-1:hover{
+	background: #dfee0b;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}

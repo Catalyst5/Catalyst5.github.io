@@ -93,12 +93,14 @@ p {
 img {
     border-radius: 5%;
 }
+//_*_*_*_*_*_*_*_*_*(Animations for images)
 .zoom{
     transition: transform .2s;
 }
 .zoom:hover{
     transform: scale(1.5);
 }
+/_*_*_*_*_*_*_*_*_*(Stylish buttons)
 .btn-holder {
 	width: 300px;
 	margin: 50px auto;
@@ -118,7 +120,8 @@ img {
 }
 .btn-1:hover{
 	background: #dfee0b;
-}
+}/_*_*_*_*_*_*_*_*_*(No underline in a)
+
 *{
     margin: 0;
     padding: 0;
