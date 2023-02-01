@@ -1,4 +1,4 @@
-//_*_*_*_*_*_*_*_*_*(Navbar)
+ //_*_*_*_*_*_*_*_*_*(Navbar)
 
 
 .Navbar{
@@ -10,7 +10,7 @@
 
 
 header {
-    width: 40%;
+    width: 36%;
     height: 70px;
     background-image: linear-gradient(#FED807, #FE1902 94.35%);
     border-radius: 40px;
@@ -98,9 +98,8 @@ p {
     letter-spacing: 1.3px;
 }
 
-//_*_*_*_*_*_*_*_*_*(Rounded Corners For Images)
 img {
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 //_*_*_*_*_*_*_*_*_*(Stylish buttons and images)
@@ -120,9 +119,11 @@ img {
     outline: none;
     transition: background 1s;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: transform .2s;
 }
 .btn-1:hover {
         background: -webkit-linear-gradient(#FE1902, #FED807);
+        transform: scale(1.5);
 }
 *{
     margin: 0;
@@ -146,6 +147,14 @@ img {
 footer{
     text-align: center;
 }
-p{
-
+hr {
+    background-image: linear-gradient(#FED807, #FE1902 94.35%);
+    border-radius: 40px;
+}
+.bg_P32 {
+    background-image: url("Images/P32 Parkour/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
 }
