@@ -1,9 +1,5 @@
 //_*_*_*_*_*_*_*_*_*(Navbar)
-body,html{
-    margin: 0;
-    padding: 0;
 
-}
 
 .Navbar{
     width: auto;
@@ -21,7 +17,7 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
-
+    position: fixed;
 }
 
 h1 {
@@ -63,7 +59,7 @@ a {
 }
 
 a:hover {
-    background: -webkit-linear-gradient(#FE1902, #FED807);
+    background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -74,13 +70,12 @@ body {
 }
 
 //_*_*_*_*_*_*_*_*_*(Font and Color)
-h2 {
-    color: orange;
-    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
-h3{
-    color: orange;
+
+h3 {
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 h2 {
@@ -88,12 +83,19 @@ h2 {
     background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 35px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
 }
 
 p {
-    color: white;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1.3px;
 }
 
 //_*_*_*_*_*_*_*_*_*(Rounded Corners For Images)
@@ -107,20 +109,20 @@ img {
 	margin: 50px auto;
 }
 .btn-1 {
-	display: block;
-	border: none;
-	background: #F44336;
-	padding: 10px 15px;
-	color: #fff;
-	font-size: 20px;
-	border-radius: 5px;
-	cursor: pointer;
-	outline: none;
-	transition: background 1s;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: block;
+    border: none;
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 1s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.btn-1:hover{
-	background: #dfee0b;
+.btn-1:hover {
+        background: -webkit-linear-gradient(#FE1902, #FED807);
 }
 *{
     margin: 0;
@@ -133,4 +135,28 @@ img {
 }
 .zoom:hover{
     transform: scale(1.5);
+}
+.bg_pinyguys {
+    background-image: url("Images/PinyGuys/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+footer{
+    text-align: center;
+}
+.bg_pinekour {
+    background-image: url("Images/Pinekour/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg_pineapple {
+    background-image: url("Logos/Pineapple Logo/Dark/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
 }
