@@ -1,6 +1,3 @@
- //_*_*_*_*_*_*_*_*_*(Navbar)
-
-
 .Navbar{
     width: auto;
     float: left;
@@ -10,7 +7,7 @@
 
 
 header {
-    width: 36%;
+    width: 40%;
     height: 70px;
     background-image: linear-gradient(#FED807, #FE1902 94.35%);
     border-radius: 40px;
@@ -45,32 +42,25 @@ li{
     padding: 3px 30px;
 }
 
-//_*_*_*_*_*_*_*_*_*(Links)
-
 a {
+    color: black;
     text-align: center;
-    background: -webkit-linear-gradient(#FED807, #FE1902);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1.2vw;
+    transition: 1s;
 }
 
 a:hover {
     background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: 0.5s;
 }
 
 body {
     background-color: black;
     color: black;
 }
-
-//_*_*_*_*_*_*_*_*_*(Font and Color)
-
 
 h3 {
     background: -webkit-linear-gradient(#FED807, #FE1902);
@@ -102,7 +92,6 @@ img {
     border-radius: 10px;
 }
 
-//_*_*_*_*_*_*_*_*_*(Stylish buttons and images)
 .btn-holder {
 	width: 300px;
 	margin: 50px auto;
@@ -155,6 +144,13 @@ hr {
     background-image: url("Images/P32 Parkour/bg.png");
     background-repeat: no-repeat;
     background-size: 100%, 100%;
-    background-position: center center;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bg_pineapple {
+    background-image: url("Logos/Pineapple Logo/Dark/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center;
     background-attachment: fixed;
 }
