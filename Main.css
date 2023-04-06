@@ -1,4 +1,4 @@
- .Navbar{
+﻿.Navbar{
     width: auto;
     float: left;
     margin: 8px;
@@ -7,23 +7,24 @@
 
 
 header {
-    width: 40%;
+    width: 100%;
     height: 70px;
     background-image: linear-gradient(#FED807, #FE1902 94.35%);
     border-radius: 40px;
-    justify-content: center;
-    align-items: center;
     display: flex;
     position: fixed;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
-    text-align: center;
-    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, sans-serif;
     background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 95px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    font-size: 90px
+
 }
 
 
@@ -47,7 +48,7 @@ a {
     text-align: center;
     text-decoration: none;
     font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.2vw;
+    font-size: 60px;
     transition: 1s;
 }
 
@@ -66,10 +67,19 @@ h3 {
     background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, ' Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+h4 {
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Impact, ' Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: center;
 }
 h2 {
-    font-family: "Fonts\Rowdies-Bold.ttf", Haettenschweiler, sans-serif;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
     background: -webkit-linear-gradient(#FED807, #FE1902);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,13 +106,13 @@ img {
 	width: 300px;
 	margin: 50px auto;
 }
+
 .btn-1 {
     display: block;
     border: none;
     background: -webkit-linear-gradient(#FED807, #FE1902);
     padding: 10px 15px;
     color: #fff;
-    font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
     outline: none;
@@ -110,22 +120,27 @@ img {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: transform .2s;
 }
+
 .btn-1:hover {
-        background: -webkit-linear-gradient(#FE1902, #FED807);
+        background: -webkit-linear-gradient(#000, #000);
         transform: scale(1.5);
 }
+
 *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
+
 .zoom{
     transition: transform .2s;
 }
+
 .zoom:hover{
     transform: scale(1.5);
 }
+
 .bg_pinyguys {
     background-image: url("Images/PinyGuys/bg.jpg");
     background-repeat: no-repeat;
@@ -133,13 +148,16 @@ img {
     background-position: center center;
     background-attachment: fixed;
 }
+
 footer{
     text-align: center;
 }
+
 hr {
     background-image: linear-gradient(#FED807, #FE1902 94.35%);
     border-radius: 40px;
 }
+
 .bg_P32 {
     background-image: url("Images/P32 Parkour/bg.png");
     background-repeat: no-repeat;
@@ -147,6 +165,7 @@ hr {
     background-position: center;
     background-attachment: fixed;
 }
+
 .bg_pineapple {
     background-image: url("Logos/Pineapple Logo/Dark/bg.jpg");
     background-repeat: no-repeat;
@@ -154,3 +173,74 @@ hr {
     background-position: center;
     background-attachment: fixed;
 }
+
+.bg_games {
+    background-color: #000;
+}
+.bg_pinekour {
+    background-image: url("Images/Pinekour/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.btn-link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Fonts\RobotoMono-Regular.ttf", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.btn-link:hover {
+    background: -webkit-linear-gradient(#FED807, #FE1902);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg_addforce {
+    background-image: url("Images/AddForce/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bg_rh {
+    background-image: url("Images/RH Helper/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bg_apps {
+    background-image: url("Images/Apps.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.bg_ih {
+    background-image: url("Images/Islamic Helper/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
