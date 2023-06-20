@@ -21,8 +21,9 @@ li{
 header {
     width: 100%;
     height: 70px;
-    background-color: #00000082;
+    background-color: #000000a2;
     position: fixed;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,.8);
     
 }
 
@@ -45,6 +46,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     border-radius: 10px;
     display: inline-block;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,.8);
 }
 
 a {
@@ -131,6 +133,7 @@ body {
 .half {
     background-color: #00000082;
     border-radius: 10px;
+    box-shadow: 15px 15px 15px 15px rgba(0,0,0,.8);
     
 }
 
@@ -178,8 +181,7 @@ p {
 .half2 {
     background-color: #00000082;
     border-radius: 10px;
-    display: inline-block;
-
+    display: inline-block
 }
 h2 {
     font-family: Rounded1;
